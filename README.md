@@ -9,6 +9,7 @@ This is a take-home project from Ziggy.
 - use HTTP GET method. If successful, a 201 response will be sent. Otherwise, the server will send 400 error.
 - If you deploy this project somewhere, then the path is ROOT URL/upload
 
+> ```
 >const axios = require('axios');
 > const fs = require('fs');
 > 
@@ -28,6 +29,7 @@ This is a take-home project from Ziggy.
 > .catch(error => {
 >   console.error(error);
 > });
+> ```
 
 ## video download
 - To download video, use the path ROOT_URL/download/:filename 
