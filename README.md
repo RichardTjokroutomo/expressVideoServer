@@ -1,7 +1,6 @@
 # expressVideoServer
 
 This is a simple server for uploading, streaming, and downloading videos. (only supports mp4 files)
-This is a take-home project from Ziggy.
 
 ## file upload
 
